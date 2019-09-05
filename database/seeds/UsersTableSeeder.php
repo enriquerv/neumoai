@@ -32,38 +32,10 @@ class UsersTableSeeder extends Seeder
 
 		$admins = [
 			Sentinel::registerAndActivate([
-				'first_name' 	=> 'Nevin',
-				'last_name' 	=> 'Santana',
-				'email' 		=> 'nevsantana@fabricadesoluciones.com',
-				'password' 		=> 'asdasd',
-				'role_id' 		=> 1,
-			]),
-			Sentinel::registerAndActivate([
 				'first_name' 	=> 'Enrique',
 				'last_name' 	=> 'Rodriguez',
 				'email' 		=> 'erodriguez@fabricadesoluciones.com',
 				'password' 		=> 'asdasd',
-				'role_id' 		=> 1,
-			]),
-			Sentinel::registerAndActivate([
-				'first_name' 	=> 'Iván',
-				'last_name' 	=> 'Ramirez',
-				'email' 		=> 'iramirez@fabricadesoluciones.com',
-				'password' 		=> 'asdasd',
-				'role_id' 		=> 1,
-			]),
-			Sentinel::registerAndActivate([
-				'first_name' 	=> 'Karla',
-				'last_name' 	=> 'Reyes',
-				'email' 		=> 'kreyes@fabricadesoluciones.com',
-				'password' 		=> 'asdasd',
-				'role_id' 		=> 1,
-			]),
-			Sentinel::registerAndActivate([
-				'first_name' 	=> 'Traders',
-				'last_name' 	=> 'Steel',
-				'email' 		=> 'operaciones@t-s.com.mx',
-				'password' 		=> 'administracionTS',
 				'role_id' 		=> 1,
 			]),
 		];
