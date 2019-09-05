@@ -20,9 +20,7 @@ class FrontEndController extends Controller
 {
     public function __construct()
     {
-        if(!Session::has('cart')) Session::put('cart', array());
-
-        $this->compact = ['active', 'cart'];
+        $this->compact = ['active'];
     }
 
     /*
@@ -30,8 +28,21 @@ class FrontEndController extends Controller
      */
     public function index(){
     	$active = 'index';
-    	$cart = Session::get('cart');
-
     	return view('index', compact($this->compact));
+    }
+
+    public function aboutus(){
+        $active = 'aboutus';
+        return view('aboutus', compact($this->compact));
+    }
+
+    public function neumonia(){
+        $active = 'neumonia';
+        return view('neumonia', compact($this->compact));
+    }
+
+    public function contact(){
+        $active = 'contact';
+        return view('contact', compact($this->compact));
     }
 }

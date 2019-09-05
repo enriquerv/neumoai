@@ -26,8 +26,9 @@ Route::group(array('middleware' => 'langMiddleware'), function () {
      * Web Site
      */
     Route::get('/', array('as' => 'home', 'uses' => 'FrontEndController@index'));
-    Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@getContact'));
-    Route::post('contact', array('as' => 'contact', 'uses' => 'FrontEndController@postContact'));
+    Route::get('aboutus', array('as' => 'aboutus', 'uses' => 'FrontEndController@aboutus'));
+    Route::get('neumonia', array('as' => 'neumonia', 'uses' => 'FrontEndController@neumonia'));
+    Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@contact'));
 
     /*
      * Purchases
