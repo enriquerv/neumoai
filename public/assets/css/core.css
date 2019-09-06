@@ -8,6 +8,9 @@ a, button, .btn, a.btn {
 	-o-transition: 0.2s;
 	transition: 0.2s;
 }
+body{
+	font-family: 'Monserrat';
+}
 .p-relative { position: relative; }
 .p-absolute { position: absolute; }
 .container-custom { width: 100%; margin: 0 auto; padding: 0 1rem; position: relative; }

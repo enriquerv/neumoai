@@ -137,6 +137,18 @@ BLOG
 .dropdown-child > a:hover { background-color: #222; }
 .dropdown-child > a:hover { color: #FFF; }
 
+/*=============================================================================
+INDEX
+=============================================================================*/
+
+.p-center{
+	width: 90%;
+    margin: 0 auto;
+    font-size: 19px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px !important;
+}
 
 
 /*=============================================================================
