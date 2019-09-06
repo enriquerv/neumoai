@@ -19,6 +19,8 @@
         {{ Html::style( 'assets/css/core.css?'.filemtime('assets/css/core.css') ) }}
         {{-- Custom CSS file --}}
         {{ Html::style( 'assets/css/custom.css?'.filemtime('assets/css/custom.css') ) }}
+        {{-- Custom Extra file --}}
+        {{ Html::style( 'assets/css/extra.css?') }}
         <script> var direction = "{{ config('app.path') }}" </script>
         @yield('styles')
     </head>

@@ -2,7 +2,7 @@
 	<div class="container-custom">
 		<div class="row">
 			<div class="col-sm-12">
-				&copy; {{ date("Y") }} {{ env("APP_NAME") }} | Todos los derechos reservados.
+				&copy; {{ date("Y") }} <strong>{{ env("APP_NAME") }}</strong> | Todos los derechos reservados.
 			</div>
 		</div>
 	</div>
