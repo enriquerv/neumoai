@@ -16,6 +16,10 @@ FONTS
 	font-family: "Monserrat";
 	src: url("fonts/Montserrat-Regular.ttf");
 }
+@font-face {
+	font-family: "MonserratBold";
+	src: url("fonts/Montserrat-Bold.ttf");
+}
 /*=============================================================================
 THANKS PAGE
 =============================================================================*/
@@ -32,8 +36,8 @@ NAVBAR
 }
 .img-logo{ width: 250px; }
 .navbar .active{
-	font-weight: bold;
-	color: #0078c6 !important; 
+	color: #0078c6 !important;
+	font-family: 'MonserratBold';
 }
 /*=============================================================================
 BLOG
