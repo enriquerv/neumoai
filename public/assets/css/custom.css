@@ -37,7 +37,8 @@ NAVBAR
 .img-logo{ width: 250px; }
 .navbar .active{
 	color: #0078c6 !important;
-	font-family: 'MonserratBold';
+	font-family: 'Monserrat';
+	text-shadow: 0 0 1px #3578c6;
 }
 /*=============================================================================
 BLOG
