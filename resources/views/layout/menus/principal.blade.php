@@ -11,13 +11,13 @@
         <a class="nav-link {{ $active == 'index' ? 'active' : '' }}" href="{{ route('home') }}">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="{{ route('aboutus') }}">Nosotros</a>
+        <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="#{{-- {{ route('aboutus') }} --}}">Nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {{ $active == 'neumonia' ? 'active' : '' }}" href="{{ route('neumonia') }}">Neumonía</a>
+        <a class="nav-link {{ $active == 'neumonia' ? 'active' : '' }}" href="#{{-- {{ route('neumonia') }} --}}">Neumonía</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {{ $active == 'contact' ? 'active' : '' }}" href="{{ route('contact') }}">Contacto</a>
+        <a class="nav-link {{ $active == 'contact' ? 'active' : '' }}" href="#{{-- {{ route('contact') }} --}}">Contacto</a>
       </li>
     </ul>
   </div>
