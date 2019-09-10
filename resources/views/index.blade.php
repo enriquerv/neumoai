@@ -13,7 +13,7 @@
     <div class="masthead-content">
       <div class="container">
         <p class="masthead-heading mb-0"><img src="{{ env('APP_URL') }}/assets/images/logo_neumoai.png" alt="" width="75%"></p>
-        <h4 class="masthead-subheading mb-0">Asociacion de Apoyo e Informacion a Familiares y Pacientes con Neumonia</h4>
+        <h4 class="masthead-subheading mb-0">Asociacion de Apoyo e Información a Familiares y Pacientes con Neumonía</h4>
         {{-- <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a> --}}
       </div>
     </div>
@@ -57,16 +57,16 @@
   						La neumonía se puede prevenir con unas medidas de higiene básicas como una buena higiene de manos o con una mascarilla, 
   						si una persona tiene una tos productiva.
   					</p>
-  					<p>Juan Rosselló</p>
-  					<p>Enfermero</p>
+  					<p class="mBold">Juan Rosselló</p>
+  					<p class="mBold">Enfermero</p>
   				</div>
 
   				<div class="col-md-6 mt-5 mb-4">
   					<p>
   						A una persona que le han diagnosticado neumonía lo primero que le diría es que tuviera confianza en el equipo médico que le atiende. Y lo más importante, sí que le recomendaría que, por cualquier motivo que fuera, no fume.
   					</p>
-  					<p>Alfred</p>
-  					<p>Paciente</p>
+  					<p class="mBold">Alfred</p>
+  					<p class="mBold">Paciente</p>
   				</div>
   				<div class="col-md-6 text-center mt-5 mb-4">
   					<img src="https://via.placeholder.com/400x250" width="100%">
