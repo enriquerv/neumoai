@@ -43,6 +43,37 @@ NAVBAR
 .mBold{
 	font-family: 'MonserratBold';
 }
+
+/*=============================================================================
+ABOUT US
+=============================================================================*/
+.main-banner{
+	min-height: 100px;
+}
+.main-banner p{
+	transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    font-size: 40px;
+    color: #0078c6;
+    text-align: center;
+    font-family: 'MonserratBold';
+    letter-spacing: 3px;
+}
+.p-center2 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.div-directive h3{
+	font-size: 19px;
+    text-align: justify;
+    text-shadow: 1px 0px 1px black;
+}
+.div-directive h4{
+	font-size: 18px;
+    text-align: justify;
+}
 /*=============================================================================
 BLOG
 =============================================================================*/

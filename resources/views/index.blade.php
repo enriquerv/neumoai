@@ -57,16 +57,12 @@
   						La neumonía se puede prevenir con unas medidas de higiene básicas como una buena higiene de manos o con una mascarilla, 
   						si una persona tiene una tos productiva.
   					</p>
-  					<p class="mBold">Juan Rosselló</p>
-  					<p class="mBold">Enfermero</p>
   				</div>
 
   				<div class="col-md-6 mt-5 mb-4">
   					<p>
   						A una persona que le han diagnosticado neumonía lo primero que le diría es que tuviera confianza en el equipo médico que le atiende. Y lo más importante, sí que le recomendaría que, por cualquier motivo que fuera, no fume.
   					</p>
-  					<p class="mBold">Alfred</p>
-  					<p class="mBold">Paciente</p>
   				</div>
   				<div class="col-md-6 text-center mt-5 mb-4">
   					<img src="https://via.placeholder.com/400x250" width="100%">
