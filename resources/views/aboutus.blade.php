@@ -8,18 +8,9 @@
 @endsection
 
 @section('content')
-	<header class="masthead2 text-center">
-		<div class="masthead-content">
-			<div class="container">
-				<p class="masthead-heading mb-0">NOSOTROS</p>
-				{{-- <h4 class="masthead-subheading mb-0">Asociación de Apoyo e Información a Familiares y Pacientes con Neumonía</h4> --}}
-			</div>
-		</div>
-		<div class="bg-circle-1 bg-circle"></div>
-		<div class="bg-circle-2 bg-circle"></div>
-		<div class="bg-circle-3 bg-circle"></div>
-		<div class="bg-circle-4 bg-circle"></div>
-	</header>
+
+	@include('website.banner')
+
 	<div class="container-fluid">
 		<div class="row mt-5">
 			<div class="col-md-8 offset-md-2">
@@ -39,7 +30,7 @@
 
 
 				<div class="col-md-12 p-center2 text-justify mt-5">
-					<h3 class="">OBJETIVOS</h3>
+					<h3 class="MBold">OBJETIVOS</h3>
 					<ul class="mt-2">
 						<li>Dar información sobre la neumonía, desde su diagnóstico, tratamiento y evolución clínica</li>
 						<li>Prestar apoyo, asesorar y orientar a los pacientes y/ o familiares</li>
@@ -50,7 +41,7 @@
 
 
 				<div class="col-md-12 p-center2 text-justify mt-5 mb-5 row">
-					<h3 class="col-md-12">JUNTA DIRECTIVA</h3>
+					<h3 class="col-md-12 MBold pl-0">JUNTA DIRECTIVA</h3>
 
 					<div class="col-md-4 mt-3 text-center div-directive">
 						<img src="{{ env('APP_URL') }}/assets/images/aboutus/catia.jpg">
@@ -68,12 +59,12 @@
 						<h4>Sra. Laura Moreno Gimenez</h4>
 					</div>
 					<div class="col-md-4 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg">
 						<h3>Socio Fundador</h3>
 						<h4>Dr. Antoni Torres</h4>
 					</div>
 					<div class="col-md-4 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="{{ env('APP_URL') }}/assets/images/aboutus/arturo.jpg">
 						<h3>Socio Fundador</h3>
 						<h4>Dr. Arturo Huerta</h4>
 					</div>
@@ -86,7 +77,7 @@
 				
 
 				<div class="col-md-12 p-center2 text-justify mt-5 mb-5 row">
-					<h3 class="col-md-12">CONSEJO ASESOR</h3>
+					<h3 class="col-md-12 MBold pl-0">CONSEJO ASESOR</h3>
 
 					<div class="col-md-4 mt-3 text-center div-directive">
 						<img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg">

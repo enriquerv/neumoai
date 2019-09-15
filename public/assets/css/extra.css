@@ -3,8 +3,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #cfecffc9 0%, #cbeaff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(207, 236, 255, 0.788235294117647)), to(#cbeaff));
+  background: linear-gradient(0deg, rgba(207, 236, 255, 0.788235294117647) 0%, #cbeaff 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -30,8 +30,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #0078c652 0%, #74e7f830 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 120, 198, 0.3215686274509804)), to(#74e7f830));
+  background: linear-gradient(0deg, rgba(0, 120, 198, 0.3215686274509804) 0%, rgba(116, 231, 248, 0.18823529411764706) 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -85,8 +85,8 @@ header.masthead2 {
   overflow: hidden;
   padding-top: calc(1rem + 55px);
   padding-bottom: 1rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #cfecffc9 0%, #cbeaff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(207, 236, 255, 0.788235294117647)), to(rgb(203, 234, 255)));
+  background: linear-gradient(0deg, rgba(207, 236, 255, 0.788235294117647) 0%, rgb(203, 234, 255) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -114,8 +114,8 @@ header.masthead2 .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #0078c652 0%, #74e7f830 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 120, 198, 0.3215686274509804)), to(rgba(116, 231, 248, 0.18823529411764706)));
+  background: linear-gradient(0deg, rgba(0, 120, 198, 0.3215686274509804) 0%, rgba(116, 231, 248, 0.18823529411764706) 100%);
 }
 
 header.masthead2 .bg-circle-1 {

@@ -20,6 +20,9 @@ FONTS
 	font-family: "MonserratBold";
 	src: url("fonts/Montserrat-Bold.ttf");
 }
+.MBold{
+	font-family: 'MonserratBold' !important;
+}
 /*=============================================================================
 THANKS PAGE
 =============================================================================*/

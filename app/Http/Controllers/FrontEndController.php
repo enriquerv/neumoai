@@ -20,7 +20,7 @@ class FrontEndController extends Controller
 {
     public function __construct()
     {
-        $this->compact = ['active'];
+        $this->compact = ['active', 'header'];
     }
 
     /*
@@ -28,21 +28,25 @@ class FrontEndController extends Controller
      */
     public function index(){
     	$active = 'index';
+        $header = ['index', 'index'];
     	return view('index', compact($this->compact));
     }
 
     public function aboutus(){
         $active = 'aboutus';
+        $header = ['aboutus', 'NOSOTROS'];
         return view('aboutus', compact($this->compact));
     }
 
     public function neumonia(){
         $active = 'neumonia';
+        $header = ['neumonia', 'NEUMONÍA'];
         return view('neumonia', compact($this->compact));
     }
 
     public function contact(){
         $active = 'contact';
+        $header = ['contact', 'CONTACTO'];
         return view('contact', compact($this->compact));
     }
 }
