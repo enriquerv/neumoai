@@ -67,12 +67,16 @@ ABOUT US
 }
 .div-directive h3{
 	font-size: 19px;
-    text-align: justify;
+    text-align: center;
     text-shadow: 1px 0px 1px black;
 }
 .div-directive h4{
 	font-size: 18px;
-    text-align: justify;
+    text-align: center;
+}
+.div-directive img{
+	width: 175px;
+	height: 175px;
 }
 /*=============================================================================
 BLOG

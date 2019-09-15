@@ -9,12 +9,11 @@
 
 @section('content')
 
-<header class="masthead text-center">
+  <header class="masthead text-center">
     <div class="masthead-content">
       <div class="container">
         <p class="masthead-heading mb-0"><img src="{{ env('APP_URL') }}/assets/images/logo_neumoai.png" alt="" width="75%"></p>
         <h4 class="masthead-subheading mb-0">Asociación de Apoyo e Información a Familiares y Pacientes con Neumonía</h4>
-        {{-- <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a> --}}
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
