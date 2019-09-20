@@ -17,7 +17,7 @@
         <a class="nav-link {{ $active == 'neumonia' ? 'active' : '' }}" href="#{{-- {{ route('neumonia') }} --}}">Neumonía</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {{ $active == 'contact' ? 'active' : '' }}" href="#{{-- {{ route('contact') }} --}}">Contacto</a>
+        <a class="nav-link {{ $active == 'contact' ? 'active' : '' }}" href="{{ route('contact') }}">Contacto</a>
       </li>
     </ul>
   </div>

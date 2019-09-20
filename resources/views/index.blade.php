@@ -26,7 +26,7 @@
   				<strong>NEUMOAI</strong> es el acrónimo de la Asociación de Apoyo e Información a Familiares y
 				Pacientes con Neumonía, una entidad sin ánimo de lucro creada en Julio de 2019 e
 				inscrita como tal en el Registro Nacional de Asociaciones con el número (pendiente). Si
-				quieres puedes descargar o consultar nuestros <a href="http://afectadoscancerdepulmon.com/wp-content/uploads/2019/07/AEACaP_Estatutos.pdf" target="_blank">Estatutos</a>.
+				quieres puedes descargar o consultar nuestros <a href="{{ env('APP_URL') }}/assets/files/ESTATUTOS.pdf" target="_blank">Estatutos</a>.
   			</p>
   		</div>
   		<div class="col-md-12 mt-5 row">

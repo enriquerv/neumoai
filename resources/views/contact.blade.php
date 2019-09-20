@@ -10,24 +10,25 @@
 @section('content')
 	@include('website.banner')
 	<section>
-		<div class="container text-justify mt-5 mb-5">		
-			<div class="container mt-5 mb-5">
-				<iframe class="map" src="https://maps.google.com.mx/maps?q=instituto+haller&ll=19.677828,-99.220276&spn=0.279308,0.308647&sll=19.320036399999996,-99.15212780000002&sspn=1.195607100001713,1.7598905899350736&t=m&hq=instituto+haller&z=12&iwloc=A&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="container text-justify mt-5 mb-5">	
 
-			</div>
+			<div class="container mt-5 mb-5">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3062039596107!2d2.149536915176092!3d41.38915610384895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a284f065d6ab%3A0x250b65138e0e18e8!2sCalle%20Villarroel%2C%20170%2C%2008036%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2smx!4v1568959296963!5m2!1ses-419!2smx" frameborder="0" style="border:0;" allowfullscreen="" width="100%" height="250"></iframe>
+			</div>	
+
 			<div class="row">
 				<div class="col-md-6">
 					<b style="font-size: 20px;">INFORMACIÓN CONTACTO</b> <br><br>
-					Somos una institución educativa, con 30 años de experiencia. Nuestro legado es formar alumnos (as) críticos, reflexivos, creativos, amantes de la paz, los derechos humanos y socialmente comprometidos con su entorno social y con su país.<br><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reprehenderit error obcaecati maiores aperiam esse accusantium. Sed id, autem ullam aliquid quas rem tenetur beatae fugit qui, voluptate ipsam repellat.<br><br>
 
-					<b>CAMPUS TEPOTZOTLÁN</b><br>
-					AV.BENITO JUÁREZ N.4 BARRIO SAN MARTÍN TEPOTZOTLÁN.<br>
-					TEL: 58-76-66-82 <br><br>			 
+					<b>DIRECCIÓN 1</b><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
+					TEL: 55-55-55-55 <br><br>			 
 
-					<b>CAMPUS IZCALLI</b><br>
-					ANDADOR ILRANDA IT. 58, 59 Y 60<br>
-					Col. Centro Urbano Cuautitlán Izcalli<br>
-					TEL: 58-73-52-92
+					<b>DIRECCIÓN 1</b><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
+					TEL: 55-55-55-55 <br><br>
 				</div>
 				<div class="col-md-6">
 					<div class="row">
@@ -56,6 +57,7 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</section>
 @endsection
