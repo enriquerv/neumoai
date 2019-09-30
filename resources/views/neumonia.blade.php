@@ -33,5 +33,12 @@
 	<div style="clear: both;"></div>
 @endsection
 
+<style>
+	.row{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+</style>
+
 @section('scripts')
 @endsection
