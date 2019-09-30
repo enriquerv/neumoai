@@ -38,10 +38,10 @@ class FrontEndController extends Controller
         return view('aboutus', compact($this->compact));
     }
 
-    public function neumonia(){
+    public function neumonia($type){
         $active = 'neumonia';
         $header = ['neumonia', 'NEUMONÍA'];
-        return view('neumonia', compact($this->compact));
+        return view('neumonia', compact($this->compact, 'type'));
     }
 
     public function contact(){

@@ -19,24 +19,15 @@
 			<div class="row">
 				<div class="col-md-6">
 					<b style="font-size: 20px;">INFORMACIÓN CONTACTO</b> <br><br>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reprehenderit error obcaecati maiores aperiam esse accusantium. Sed id, autem ullam aliquid quas rem tenetur beatae fugit qui, voluptate ipsam repellat.<br><br>
-
-					<b>DIRECCIÓN 1</b><br>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
-					TEL: 55-55-55-55 <br><br>			 
-
-					<b>DIRECCIÓN 1</b><br>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.<br>
-					TEL: 55-55-55-55 <br><br>
+					<p>Dra Catia Cilloniz Campos, PhD, FERS</p>
+					<p>Departamento de Neumologia, Hospital Clinic de Barcelona, España</p>
+					<p>Profesora Asociada de la Universidad de Barcelona</p>
+					<p>Presidenta de NEUMOAI</p>
+					<p>Tel: 0034 932275400 EXT 2887</p>
+					<p>E-mail: catia cilloniz@yahoo.com / cilloniz@clinic.cat</p>
 				</div>
 				<div class="col-md-6">
 					<div class="row">
-						<div class="col-12">
-							<div class="alert alert-danger" style="opacity: 0; transition: 0.5s" id='error-f'>
-								Favor de llenar todos los campos
-							</div>
-						</div>
 						<div class="col-4">
 							<input type="text" class="form-control" placeholder="Nombre" id='name'>
 						</div>
@@ -54,6 +45,11 @@
 								Enviar
 							</button>
 						</div>
+						{{-- <div class="col-12">
+							<div class="alert alert-danger" style="opacity: 0; transition: 0.5s" id='error-f'>
+								Favor de llenar todos los campos
+							</div>
+						</div> --}}
 					</div>
 				</div>
 			</div>
@@ -64,3 +60,4 @@
 
 @section('scripts')
 @endsection
+<p>

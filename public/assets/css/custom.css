@@ -46,6 +46,17 @@ NAVBAR
 .mBold{
 	font-family: 'MonserratBold';
 }
+.strong{
+	text-shadow: 0px 0px 1px;
+}
+.w100{
+	width: 100%;
+}
+
+.row{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
 
 /*=============================================================================
 ABOUT US
@@ -195,6 +206,21 @@ INDEX
 .navbar-light .navbar-nav .nav-link {
     font-size: 20px !important;
 }
+
+/*=============================================================================
+NEUMONIA
+=============================================================================*/
+.menu_neumo{ width: 300px; float: left; background: #f5f7fa; }
+
+.menu_neumo p{ padding: 15px; border-bottom: 1px solid #b2b2b2; }
+
+.menu_neumo .active{ background: #dcf2fe !important; }
+
+.menu_neumo p a{ text-decoration: none; color: #000; }
+
+.info_menu{ width: calc(100% - 300px); float: right; }
+
+.img-intro{ width: 65%; }
 
 
 /*=============================================================================
