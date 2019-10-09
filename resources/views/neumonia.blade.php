@@ -28,6 +28,9 @@
 			@if ($type == 'intro') @include('neumonia.intro') @endif
 			@if ($type == 'definition') @include('neumonia.definition') @endif
 			@if ($type == 'causes') @include('neumonia.causes') @endif
+			@if ($type == 'symptom') @include('neumonia.symptom') @endif
+			@if ($type == 'diagnosis') @include('neumonia.diagnosis') @endif
+			@if ($type == 'treatment') @include('neumonia.treatment') @endif
 		</div>
 	</div>
 	<div style="clear: both;"></div>

@@ -13,7 +13,7 @@
 
   <section class="container pt-60 pb-60">
   	<div class="row">
-  		<div class="col-md-6 mt-3 text-center">
+  		<div class="col-md-6 mt-3 text-center" data-aos="zoom-in" data-aos-duration="1000">
   			<img src="{{ env('APP_URL') }}/assets/images/index/pulmones.png" alt="">
   		</div>
   		<div class="col-md-6 mt-3">
@@ -37,7 +37,7 @@
 					<h4 class="mt-3">Profesionales y pacientes te explican cómo se convive con la enfermedad</h4>
 				</div>
 
-  				<div class="col-md-6 text-center mt-5 mb-4">
+  				<div class="col-md-6 text-center mt-5 mb-4" data-aos="flip-left" data-aos-duration="1000">
   					<img src="https://via.placeholder.com/400x250" width="100%">
   				</div>	
   				<div class="col-md-6 mt-5 mb-4">
@@ -52,7 +52,7 @@
   						A una persona que le han diagnosticado neumonía lo primero que le diría es que tuviera confianza en el equipo médico que le atiende. Y lo más importante, sí que le recomendaría que, por cualquier motivo que fuera, no fume.
   					</p>
   				</div>
-  				<div class="col-md-6 text-center mt-5 mb-4">
+  				<div class="col-md-6 text-center mt-5 mb-4" data-aos="flip-right" data-aos-duration="1000">
   					<img src="https://via.placeholder.com/400x250" width="100%">
   				</div>	
   			</div>

@@ -17,6 +17,8 @@
         {{ Html::style('assets/plugins/timepicker/jquery.timepicker.min.css') }}
         {{-- Core CSS file --}}
         {{ Html::style( 'assets/css/core.css?'.filemtime('assets/css/core.css') ) }}
+        {{-- AOS CSS --}}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         {{-- Custom CSS file --}}
         {{ Html::style( 'assets/css/custom.css?'.filemtime('assets/css/custom.css') ) }}
         {{-- Custom Extra file --}}
@@ -65,6 +67,11 @@
         {{ Html::script("https://use.fontawesome.com/releases/v5.8.1/js/all.js") }}
         {{-- Custom Script --}}
         {{ Html::script( "assets/js/script.js?".filemtime("assets/js/script.js") ) }}
+        {{-- AOS Script --}}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         @yield('scripts')
         @include('notifications')
