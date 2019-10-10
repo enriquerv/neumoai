@@ -31,6 +31,11 @@
 			@if ($type == 'symptom') @include('neumonia.symptom') @endif
 			@if ($type == 'diagnosis') @include('neumonia.diagnosis') @endif
 			@if ($type == 'treatment') @include('neumonia.treatment') @endif
+			@if ($type == 'prevention') @include('neumonia.prevention') @endif
+			@if ($type == 'evolution') @include('neumonia.evolution') @endif
+			@if ($type == 'live-with') @include('neumonia.live-with') @endif
+			@if ($type == 'investigation') @include('neumonia.investigation') @endif
+			@if ($type == 'faq') @include('neumonia.faq') @endif
 		</div>
 	</div>
 	<div style="clear: both;"></div>
