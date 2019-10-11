@@ -49,4 +49,10 @@ class FrontEndController extends Controller
         $header = ['contact', 'CONTACTO'];
         return view('contact', compact($this->compact));
     }
+
+    public function publications(){
+        $active = 'publications';
+        $header = ['publications', 'PUBLICACIONES'];
+        return view('publications', compact($this->compact));
+    }
 }

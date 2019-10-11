@@ -8,7 +8,7 @@
 				
 				<div class="row">
 					<div class="col-md-6 text-center mt-5 mb-4">
-						<img src="https://via.placeholder.com/400x250" width="100%">
+						<img src="https://via.placeholder.com/400x250" width="100%" data-aos="zoom-in" data-aos-duration="1000">
 					</div>	
 					<div class="col-md-6 mt-5 mb-4">
 						<p>
@@ -23,7 +23,7 @@
 						</p>
 					</div>
 					<div class="col-md-6 text-center mt-5 mb-4">
-						<img src="https://via.placeholder.com/400x250" width="100%">
+						<img src="https://via.placeholder.com/400x250" width="100%" data-aos="zoom-in" data-aos-duration="1000">
 					</div>	
 				</div>
 				

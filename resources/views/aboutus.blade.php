@@ -44,37 +44,37 @@
 					<h3 class="col-md-12 MBold pl-0">COMITÉ CIENTÍFICO</h3>
 
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg">
+						<img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dr. Antoni Torres</h3>
 						<h4> Servicio de Neumología</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="https://via.placeholder.com/230x250&text=foto" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dra. Rosario Menéndez</h3>
 						<h4>Jefa del Servicio de Neumología</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="{{ env('APP_URL') }}/assets/images/aboutus/arturo.jpg">
+						<img src="{{ env('APP_URL') }}/assets/images/aboutus/arturo.jpg" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dr. Arturo Huerta</h3>
 						<h4>Especialista del Servicio de Urgencias</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="{{ env('APP_URL') }}/assets/images/aboutus/catia.jpg">
+						<img src="{{ env('APP_URL') }}/assets/images/aboutus/catia.jpg" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dra. Catia Cilloniz</h3>
 						<h4>Coordinaddora de la línea de investigación</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="https://via.placeholder.com/230x250&text=foto" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dra. Carolina Garcia-Vidal</h3>
 						<h4>Especialista del Servicio de Enfermedades Infecciosas</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="https://via.placeholder.com/230x250&text=foto" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dr Jua  Manuel Pericas, MD, PhD, MPH</h3>
 						<h4>Infectious Diseases & Clinical Microbiology</h4>
 					</div>
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
-						<img src="https://via.placeholder.com/230x250&text=foto">
+						<img src="https://via.placeholder.com/230x250&text=foto" data-aos="zoom-in" data-aos-duration="1000">
 						<h3>Dra Adamanthia Liapikou</h3>
 						<h4>6th Respiratory Department, Sotiria Chest Diseases Hospital</h4>
 					</div>
@@ -113,6 +113,12 @@
 						<h3>Socia Fundadora</h3>
 						<h4>Dra. Rosario Menéndez</h4>
 					</div>
+					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+						{{-- <img src="https://via.placeholder.com/230x250&text=foto"> --}}
+						<h3>Socia Fundadora</h3>
+						<h4>Debora Domínguez</h4>
+					</div>
+					
 				</div>
 
 			</div>

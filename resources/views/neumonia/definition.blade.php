@@ -3,7 +3,7 @@
 		<div class="col-md-12 row">
 			<h2>¿Qué es la Neumonía?</h2>
 			<p class="text-center mt-3 w100">
-				<img src="{{ env('APP_URL') }}/assets/images/neumonia/intro01.png" class="img-intro">	
+				<img src="{{ env('APP_URL') }}/assets/images/neumonia/intro01.png" class="img-intro" data-aos="zoom-in" data-aos-duration="1000">	
 			</p>
 
 			<div class="col-md-10 offset-1">
@@ -31,7 +31,7 @@
 			
 			<h2>¿A cuántas personas afecta la Neumonía?</h2>
 			<p class="text-center mt-3 w100">
-				<img src="{{ env('APP_URL') }}/assets/images/neumonia/intro02.png" class="img-intro">	
+				<img src="{{ env('APP_URL') }}/assets/images/neumonia/intro02.png" class="img-intro" data-aos="zoom-in" data-aos-duration="1000">	
 			</p>
 
 			<div class="col-md-10 offset-1">

@@ -7,7 +7,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas01.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas01.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">
@@ -17,7 +17,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas02.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas02.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">
@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas03.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas03.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">
@@ -47,7 +47,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas04.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas04.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">Es más frecuente en personas mayores (mayores 65 años) y niños pequeños (menores de 5 años).</p>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas05.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas05.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">En personas que tienen enfermedades pulmonares crónicas, diabetes, mala nutrición, abuso de consumo de alcohol, dificultad para deglutir, otros problemas de salud crónicos o problemas del sistema inmunológico.</p>
@@ -63,7 +63,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas06.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas06.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">En personas que fuman y aquellas expuestas al humo del tabaco.</p>
@@ -71,7 +71,7 @@
 			</div>
 			<div class="col-md-10 offset-1 row">
 				<div class="col-md-4 text-center">
-					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas07.svg" alt="">
+					<img src="{{ env('APP_URL') }}/assets/images/neumonia/causas07.svg" data-aos="flip-right" data-aos-duration="1000">
 				</div>
 				<div class="col-md-8">
 					<p class="mt-4 text-justify">En personas que no han recibido la vacuna antigripal y o la antineumocócica, tienen más riesgo de contraer una neumonía.</p>
