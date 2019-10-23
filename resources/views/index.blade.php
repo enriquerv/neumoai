@@ -14,11 +14,21 @@
   <section class="container pt-60 pb-60">
   	<div class="row">
   		<div class="col-md-6 mt-3 text-center" data-aos="zoom-in" data-aos-duration="1000">
-  			<img src="{{ env('APP_URL') }}/assets/images/index/pulmones.png" alt="">
+  			<img src="https://via.placeholder.com/400x250" alt="">
   		</div>
   		<div class="col-md-6 mt-3">
   			<p class="p-center text-justify">
-  				La neumonía es una enfermedad del sistema respiratorio que afecta a los pulmones. Las personas de edad avanzada y los niños son los grupos de población más propensos a desarrollarla. Una buena higiene de manos, dejar de fumar y una correcta vacunación, son las medidas básicas para prevenir el contagio de esta infección.
+  				La neumonía es un proceso inflamatorio agudo del parénquima pulmonar de origen
+          infeccioso, que se caracteriza por la presencia de síntomas de infección respiratoria
+          baja (tos, expectoración purulenta, fiebre, entre otros) y se confirma con la presencia
+          de infiltrados pulmonares en una imagen de tórax. Esta infección se puede
+          adquirir en la comunidad o en el entorno hospitalario (intra-hospitalaria) y puede
+          transmitirse por microorganismos aspirados o inhalados, siendo estas las rutas más
+          frecuentes para adquirir la infección.
+          La neumonía puede estar causada por diferentes microorganismos, siendo los más
+          frecuentes las bacterias, en especial Streptococcus pneumoniae (neumococo), y los
+          virus respiratorios como influenza virus A. Rara vez esta patología es causada por
+          hongos o parásitos.
   			</p>
   		</div>
   		<div class="col-md-12 mt-5">
@@ -30,7 +40,7 @@
   			</p>
   		</div>
   		<div class="col-md-12 mt-5 row">
-  			<div class="col-md-8 offset-2 mt-5 row">
+  			<div class="col-md-8 offset-2 mt-5 row d-none">
 
 				<div class="col-md-12 mb-4">
 					<h1>La Neumonía en primera persona</h1>

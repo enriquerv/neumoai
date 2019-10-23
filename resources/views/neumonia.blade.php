@@ -9,8 +9,71 @@
 
 @section('content')
 	@include('website.banner')
+	<div class="container-fluid main pt-5">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 text-center">
+				<div class="sq-contain">
+					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/definicion.png"></div>
+					<div><p class="p-title">DEFINICIÓN</p></div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 text-center">
+				<div class="sq-contain">
+					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/epidemiologia.png"></div>
+					<div><p class="p-title">EPIDEMIOLOGÍA</p></div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 text-center">
+				<div class="sq-contain">
+					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/etiopatogenia.png"></div>
+					<div><p class="p-title">ETIOPATOGENIA Y FISIOPATOLOGÍA</p></div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 text-center">
+				<div class="sq-contain">
+					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/riesgos.png"></div>
+					<div><p class="p-title">FACTORES DE RIESGO</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
 	
-	<div class="container-fluid">
+@endsection
+
+<style>
+	.row{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	.main{
+		background: #f2f2f2;
+		min-height: 500px;
+	}
+	.sq-contain{
+		margin: 0 auto;
+	    width: 225px;
+	    height: 300px;
+	    background: #ffffff;
+	    cursor: pointer;
+	}
+	.sq-contain div{ height: 150px; }
+	.sq-contain img{ height: 150px; width: 225px; }
+	.p-title{
+		transform: translateY(-50%);
+	    position: relative;
+	    top: 50%;
+	    text-shadow: 1px 0 0 black;
+	    font-size: 20px;
+	    padding: 0 10px;
+	}
+</style>
+
+@section('scripts')
+@endsection
+
+
+
+	{{-- <div class="container-fluid">
 		<div class="menu_neumo mt-5 mb-5">
 			<p class="{{ $type == 'intro' ? 'active' : '' }}"><a href="{{ route('neumonia', 'intro') }}">Introducción</a></p>
 			<p class="{{ $type == 'definition' ? 'active' : '' }}"><a href="{{ route('neumonia', 'definition') }}">Definición</a></p>
@@ -38,15 +101,4 @@
 			@if ($type == 'faq') @include('neumonia.faq') @endif
 		</div>
 	</div>
-	<div style="clear: both;"></div>
-@endsection
-
-<style>
-	.row{
-		margin-right: 0 !important;
-		margin-left: 0 !important;
-	}
-</style>
-
-@section('scripts')
-@endsection
+	<div style="clear: both;"></div> --}}

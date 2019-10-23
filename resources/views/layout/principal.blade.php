@@ -69,6 +69,8 @@
         {{ Html::script( "assets/js/script.js?".filemtime("assets/js/script.js") ) }}
         {{-- AOS Script --}}
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        {{-- FLIP Script --}}
+        {{ Html::script("assets/plugins/flip/jquery.flip.js") }}
         <script>
             AOS.init();
         </script>
