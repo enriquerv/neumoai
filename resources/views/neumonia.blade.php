@@ -11,25 +11,25 @@
 	@include('website.banner')
 	<div class="container-fluid main pt-5">
 		<div class="row">
-			<div class="col-md-3 col-sm-6 text-center">
+			<div class="col-md-3 col-sm-6 text-center" data-aos="flip-left" data-aos-duration="1000">
 				<div class="sq-contain">
 					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/definicion.png"></div>
 					<div><p class="p-title">DEFINICIÓN</p></div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 text-center">
+			<div class="col-md-3 col-sm-6 text-center" data-aos="flip-left" data-aos-duration="1000">
 				<div class="sq-contain">
 					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/epidemiologia.png"></div>
 					<div><p class="p-title">EPIDEMIOLOGÍA</p></div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 text-center">
+			<div class="col-md-3 col-sm-6 text-center" data-aos="flip-left" data-aos-duration="1000">
 				<div class="sq-contain">
 					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/etiopatogenia.png"></div>
 					<div><p class="p-title">ETIOPATOGENIA Y FISIOPATOLOGÍA</p></div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 text-center">
+			<div class="col-md-3 col-sm-6 text-center" data-aos="flip-left" data-aos-duration="1000">
 				<div class="sq-contain">
 					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/riesgos.png"></div>
 					<div><p class="p-title">FACTORES DE RIESGO</p></div>

@@ -83,37 +83,37 @@
 				<div class="col-md-12 p-center2 text-justify mt-5 mb-5 row">
 					<h3 class="col-md-12 MBold pl-0">JUNTA DIRECTIVA</h3>
 
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="{{ env('APP_URL') }}/assets/images/aboutus/catia.jpg"> --}}
 						<h3>Presidenta</h3>
 						<h4>Dra. Catia Cilloniz Campos</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="https://via.placeholder.com/230x250&text=foto"> --}}
 						<h3>Vice-Presidente</h3>
 						<h4>Sr. Xavier Cruz Rubio</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="https://via.placeholder.com/230x250&text=foto"> --}}
 						<h3>Secretaria</h3>
 						<h4>Sra. Laura Moreno Gimenez</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg"> --}}
 						<h3>Socio Fundador</h3>
 						<h4>Dr. Antoni Torres</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="{{ env('APP_URL') }}/assets/images/aboutus/arturo.jpg"> --}}
 						<h3>Socio Fundador</h3>
 						<h4>Dr. Arturo Huerta</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="https://via.placeholder.com/230x250&text=foto"> --}}
 						<h3>Socia Fundadora</h3>
 						<h4>Dra. Rosario Menéndez</h4>
 					</div>
-					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
+					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="https://via.placeholder.com/230x250&text=foto"> --}}
 						<h3>Socia Fundadora</h3>
 						<h4>Debora Domínguez</h4>
