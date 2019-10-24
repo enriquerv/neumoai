@@ -19,12 +19,12 @@
 			<div class="row">
 				<div class="col-md-6">
 					<b style="font-size: 20px;">INFORMACIÓN CONTACTO</b> <br><br>
-					<p>Dra Catia Cilloniz Campos, PhD, FERS</p>
-					<p>Departamento de Neumologia, Hospital Clinic de Barcelona, España</p>
-					<p>Profesora Asociada de la Universidad de Barcelona</p>
-					<p>Presidenta de NEUMOAI</p>
-					<p>Tel: 0034 932275400 EXT 2887</p>
-					<p>E-mail: catia cilloniz@yahoo.com / cilloniz@clinic.cat</p>
+					<p class="mt-2 strong">Dra Catia Cilloniz Campos, PhD, FERS</p>
+					<p class="mt-2">Departamento de Neumologia, Hospital Clinic de Barcelona, España</p>
+					<p class="mt-2">Profesora Asociada de la Universidad de Barcelona</p>
+					<p class="mt-2 strong">Presidenta de NEUMOAI</p>
+					<p class="mt-2">Tel: 0034 932275400 EXT 2887</p>
+					<p class="mt-2">E-mail: catia cilloniz@yahoo.com / cilloniz@clinic.cat</p>
 				</div>
 				<div class="col-md-6">
 					<div class="row">
