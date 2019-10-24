@@ -41,7 +41,7 @@
 
 
 				<div class="col-md-12 p-center2 text-justify mt-5 mb-5 row">
-					<h3 class="col-md-12 MBold pl-0">COMITÉ CIENTÍFICO</h3>
+					<h3 class="col-md-12 MBold pl-0 mb-5 text-center">COMITÉ CIENTÍFICO</h3>
 
 					<div class="col-md-4 col-sm-6 mt-3 text-center div-directive">
 						<img src="{{ env('APP_URL') }}/assets/images/aboutus/antoni.jpg" data-aos="zoom-in" data-aos-duration="1000">
@@ -81,7 +81,7 @@
 				</div>
 
 				<div class="col-md-12 p-center2 text-justify mt-5 mb-5 row">
-					<h3 class="col-md-12 MBold pl-0">JUNTA DIRECTIVA</h3>
+					<h3 class="col-md-12 MBold pl-0 mt-5 text-center">JUNTA DIRECTIVA</h3>
 
 					<div class="col-md-4 col-sm-6 mt-5 text-center div-directive">
 						{{-- <img src="{{ env('APP_URL') }}/assets/images/aboutus/catia.jpg"> --}}

@@ -27,9 +27,16 @@ Route::group(array('middleware' => 'langMiddleware'), function () {
      */
     Route::get('/', array('as' => 'home', 'uses' => 'FrontEndController@index'));
     Route::get('aboutus', array('as' => 'aboutus', 'uses' => 'FrontEndController@aboutus'));
-    Route::get('neumonia/{type}', array('as' => 'neumonia', 'uses' => 'FrontEndController@neumonia'));
+    Route::get('neumonia', array('as' => 'neumonia', 'uses' => 'FrontEndController@neumonia'));
     Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@contact'));
     Route::get('publications', array('as' => 'publications', 'uses' => 'FrontEndController@publications'));
+
+
+    $route = 'neumonia';
+        $controller = 'FrontEndController';
+        Route::group(array('prefix' => $route), function () use ($route, $controller) {
+            Route::get('definition', array('as' => 'front.'.$route.'.create', 'uses' => $controller.'@definition'));
+        });
 
     /*
      * Purchases

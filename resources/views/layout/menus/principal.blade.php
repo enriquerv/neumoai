@@ -14,7 +14,7 @@
         <a class="nav-link {{ $active == 'aboutus' ? 'active' : '' }}" href="{{ route('aboutus') }}">Nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {{ $active == 'neumonia' ? 'active' : '' }}" href="{{ route('neumonia', 'intro') }}">Neumonía</a>
+        <a class="nav-link {{ $active == 'neumonia' ? 'active' : '' }}" href="{{ route('neumonia') }}">Neumonía</a>
       </li>
       <li class="nav-item">
         <a class="nav-link {{ $active == 'publications' ? 'active' : '' }}" href="{{ route('publications') }}">Publicaciones</a>

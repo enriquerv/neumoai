@@ -38,10 +38,10 @@ class FrontEndController extends Controller
         return view('aboutus', compact($this->compact));
     }
 
-    public function neumonia($type){
+    public function neumonia(){
         $active = 'neumonia';
         $header = ['neumonia', 'NEUMONÍA'];
-        return view('neumonia', compact($this->compact, 'type'));
+        return view('neumonia', compact($this->compact));
     }
 
     public function contact(){
@@ -54,5 +54,12 @@ class FrontEndController extends Controller
         $active = 'publications';
         $header = ['publications', 'PUBLICACIONES'];
         return view('publications', compact($this->compact));
+    }
+
+
+    public function definition(){
+        $active = 'neumonia';
+        $header = ['neumonia', 'DEFINICIÓN'];
+        return view('neumonia.definition', compact($this->compact));
     }
 }
