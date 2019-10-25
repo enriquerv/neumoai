@@ -79,8 +79,8 @@
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            {{-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> --}}
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            {{-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> --}}
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -88,6 +88,14 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1 class="nt-1 mBold">12 DE NOVIEMBRE</h1>
                 <h3 class="nt-1 mBold">DÍA MUNDIAL DE LA NEUMONÍA</h3>
+                <a href="{{ env('APP_URL') }}/assets/files/dmn.pdf" target="_blank"><p class="nt-1 strong">VER MÁS</p></a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="{{ env('APP_URL') }}/assets/images/index/dmn.png" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="nt-1 mBold">DÍA MUNDIAL DE LA NEUMONÍA</h3>
+                <h1 class="nt-1 mBold">12 DE NOVIEMBRE</h1>
                 <a href="{{ env('APP_URL') }}/assets/files/dmn.pdf" target="_blank"><p class="nt-1 strong">VER MÁS</p></a>
               </div>
             </div>
@@ -123,6 +131,15 @@
 
   <style>
     .nt-1{color: #005f9c;}
+    .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%092030' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%092030' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-indicators li {
+      background-color: #0078c6 !important;
+    }
   </style>
 
 @endsection
