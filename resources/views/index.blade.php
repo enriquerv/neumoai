@@ -11,7 +11,7 @@
 
   @include('website.banner')
 
-  <section class="container pt-60 pb-60">
+  <section class="container pt-60">
   	<div class="row">
   		<div class="col-md-6 mt-3 text-center" data-aos="zoom-in" data-aos-duration="1000">
   			<img src="https://via.placeholder.com/400x250" alt="">
@@ -71,6 +71,59 @@
   		</div>
   	</div>
   </section>
+
+  <section class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-12 mb-5"><h1 class="mBold">NOTICIAS</h1></div>
+      <div class="col-8 offset-2">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            {{-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> --}}
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{{ env('APP_URL') }}/assets/images/index/dmn.png" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="nt-1 mBold">12 DE NOVIEMBRE</h1>
+                <h3 class="nt-1 mBold">DÍA MUNDIAL DE LA NEUMONÍA</h3>
+                <a href="{{ env('APP_URL') }}/assets/files/dmn.pdf" target="_blank"><p class="nt-1 strong">VER MÁS</p></a>
+              </div>
+            </div>
+            {{-- <div class="carousel-item">
+              <img class="d-block w-100" src="https://via.placeholder.com/400x250" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>...</h5>
+                <p>...</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://via.placeholder.com/400x250" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>...</h5>
+                <p>...</p>
+              </div>
+            </div>
+          </div> --}}
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+  </section>
+
+  <style>
+    .nt-1{color: #005f9c;}
+  </style>
 
 @endsection
 

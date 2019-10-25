@@ -34,6 +34,8 @@
         @include('layout.menus.footer')
         {{-- jQuery v3.3.1 --}}
         {{ Html::script('assets/plugins/jquery/jquery.min.js') }}
+        {{-- UTIL JS --}}
+        {{ Html::script('assets/plugins/jquery/util.js') }}
         {{-- jQuery UI v1.12.1 --}}
         {{ Html::script('assets/plugins/jquery-ui/jquery-ui.min.js') }}
         {{-- Bootstrap v4.3.1 --}}
