@@ -17,7 +17,7 @@
 					<div><p class="p-title">DEFINICIÓN</p></div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 text-center mt-5" data-aos="flip-left" data-aos-duration="1000" onclick="routeMe('')">
+			<div class="col-md-3 col-sm-6 text-center mt-5" data-aos="flip-left" data-aos-duration="1000" onclick="routeMe('epidemiology')">
 				<div class="sq-contain">
 					<div><img src="{{ env('APP_URL') }}/assets/images/neumonia/epidemiologia.png"></div>
 					<div><p class="p-title">EPIDEMIOLOGÍA</p></div>

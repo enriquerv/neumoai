@@ -36,6 +36,7 @@ Route::group(array('middleware' => 'langMiddleware'), function () {
         $controller = 'FrontEndController';
         Route::group(array('prefix' => $route), function () use ($route, $controller) {
             Route::get('definition', array('as' => 'front.'.$route.'.create', 'uses' => $controller.'@definition'));
+            Route::get('epidemiology', array('as' => 'front.'.$route.'.create', 'uses' => $controller.'@epidemiology'));
         });
 
     /*

@@ -57,9 +57,16 @@ class FrontEndController extends Controller
     }
 
 
+    //NEUMONIA
     public function definition(){
         $active = 'neumonia';
         $header = ['neumonia', 'DEFINICIÓN'];
         return view('neumonia.definition', compact($this->compact));
+    }
+
+    public function epidemiology(){
+        $active = 'neumonia';
+        $header = ['neumonia', 'EPIDEMIOLOGÍA'];
+        return view('neumonia.epidemiology', compact($this->compact));
     }
 }

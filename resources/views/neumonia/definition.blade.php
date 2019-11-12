@@ -27,7 +27,7 @@
 					<p class="mt-4 text-justify">La neumonía puede estar causada por diferentes microorganismos, siendo los más frecuentes las bacterias, en especial Streptococcus pneumoniae (neumococo), y los virus respiratorios como influenza virus A. Rara vez esta patología es causada por hongos o parásitos.</p>
 
 					<p class="text-center mt-3 w100">
-						<img src="https://via.placeholder.com/500x300" class="img-intro" data-aos="zoom-in" data-aos-duration="1000">
+						<img src="{{ env('APP_URL') }}/assets/images/neumonia/radiog1.png" class="img-intro" data-aos="zoom-in" data-aos-duration="1000">
 					</p>
 
 				</div>

@@ -14,7 +14,7 @@
   <section class="container pt-60">
   	<div class="row">
   		<div class="col-md-6 mt-3 text-center" data-aos="zoom-in" data-aos-duration="1000">
-  			<img src="https://via.placeholder.com/400x250" alt="">
+  			<img src="{{ env('APP_URL') }}/assets/images/neumonia/radiog1.png" alt="">
   		</div>
   		<div class="col-md-6 mt-3">
   			<p class="p-center text-justify">
@@ -38,36 +38,6 @@
 				inscrita como tal en el Registro Nacional de Asociaciones con el número (pendiente). Si
 				quieres puedes descargar o consultar nuestros <a href="{{ env('APP_URL') }}/assets/files/ESTATUTOS.pdf" target="_blank">Estatutos</a>.
   			</p>
-  		</div>
-  		<div class="col-md-12 mt-5 row">
-  			<div class="col-md-8 offset-2 mt-5 row d-none">
-
-				<div class="col-md-12 mb-4">
-					<h1>La Neumonía en primera persona</h1>
-					<h4 class="mt-3">Profesionales y pacientes te explican cómo se convive con la enfermedad</h4>
-				</div>
-
-  				<div class="col-md-6 text-center mt-5 mb-4" data-aos="flip-left" data-aos-duration="1000">
-  					<img src="https://via.placeholder.com/400x250" width="100%">
-  				</div>	
-  				<div class="col-md-6 mt-5 mb-4">
-  					<p>
-  						La neumonía se puede prevenir con unas medidas de higiene básicas como una buena higiene de manos o con una mascarilla, 
-  						si una persona tiene una tos productiva.
-  					</p>
-  				</div>
-
-  				<div class="col-md-6 mt-5 mb-4">
-  					<p>
-  						A una persona que le han diagnosticado neumonía lo primero que le diría es que tuviera confianza en el equipo médico que le atiende. Y lo más importante, sí que le recomendaría que, por cualquier motivo que fuera, no fume.
-  					</p>
-  				</div>
-  				<div class="col-md-6 text-center mt-5 mb-4" data-aos="flip-right" data-aos-duration="1000">
-  					<img src="https://via.placeholder.com/400x250" width="100%">
-  				</div>	
-  			</div>
-
-
   		</div>
   	</div>
   </section>
@@ -94,9 +64,9 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="{{ env('APP_URL') }}/assets/images/index/dmn.png" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                <h3 class="nt-1 mBold">DÍA MUNDIAL DE LA NEUMONÍA</h3>
-                <h1 class="nt-1 mBold">12 DE NOVIEMBRE</h1>
-                <a href="{{ env('APP_URL') }}/assets/files/dmn.pdf" target="_blank"><p class="nt-1 strong">VER MÁS</p></a>
+                <h1 class="nt-1 mBold">NEUMOAI estará presente en el</h1>
+                <h3 class="nt-1 mBold">1er curso de formación para asociasiones de pacientes de respiratorio en valencia</h3>
+                {{-- <a href="{{ env('APP_URL') }}/assets/files/dmn.pdf" target="_blank"><p class="nt-1 strong">VER MÁS</p></a> --}}
               </div>
             </div>
             {{-- <div class="carousel-item">
